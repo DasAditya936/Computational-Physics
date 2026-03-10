@@ -1,0 +1,20 @@
+# MATLAB temporary files
+*.asv
+*.slxc
+*.mex*
+*.p
+*.mlappinstall
+*.mat
+
+# MATLAB Desktop/Toolbox noise
+.SimulinkProject/
+_autosave*
+helpsearch*/
+
+# macOS/Windows system files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore data files if they are too large (>50MB)
+# Data/*.csv
+# Data/*.mat
