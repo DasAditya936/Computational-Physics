@@ -4,7 +4,7 @@ echo "--- Starting Physics Sync ---"
 
 # 1. Pull changes from GitHub (in case you edited the README online)
 echo "📥 Checking for web updates..."
-git pull origin main
+git pull origin main --rebase
 
 # 2. Stage all new files and movements
 echo "📂 Indexing new notes and code..."
