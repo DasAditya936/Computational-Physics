@@ -30,5 +30,5 @@ Computational-Physics/
 
 | Topic | Subject | Study Notes (Web) | Source Code |
 | :--- | :--- | :--- | :--- |
-| **04** | Spectral Schemes (FFT/InvFFT) | [🚀 View HTML](https://github.io) | [💻 View .m](./Topics/04_SpectralScheme_PDEs/code/FFT_InvFFT.m) |
+| **04** | Spectral Schemes (FFT/InvFFT) | [🚀 View HTML]([https://github.io](https://dasaditya936.github.io)) | [💻 View .m](./Computational-Physics/Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.html)  |
 | **05** | Finite Difference Methods | [🚀 View HTML](#) | [💻 View .m](#) |
