@@ -57,6 +57,7 @@ graph TD
     F --> H
 ```
 (Note: cpsync is the alais for the bash script created to sync the web repo and the device folder. Do not forget your PAT for GitHub)
+WARNING::: If you want to keep them on GitHub but remove them from your laptop, DON'T run your ```cpsync``` script after deleting them locally. You want your GitHub to contain most stuff and delete things from the machine, if things do get cluttered. If you delete the files and then run ```git add.``` and ```git commit-m```. before pulling, Git will think you wanted to delete them from GitHub too. When you push, your GitHub repo will become empty!     
 
 ## The bash script: Automating the pull, add, commit and push. 
 
