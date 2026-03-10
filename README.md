@@ -61,16 +61,37 @@ graph TD
 ## The bash script: Automating the pull, add, commit and push. 
 
 ```#!/bin/bash
-echo "--- Starting Physics Sync ---"
-git pull origin main                      # H: Syncs Web Edits
-git add .                                 # Stages folder changes
-git commit -m "Physics Update: $(date)"   # Signs off locally
-git push origin main                      # I: Uploads to GitHub
-echo "--- ✅ Dashboard Updated! ---"
+# 1. SAVE LOCAL WORK FIRST
+git add .
+git commit -m "Physics Update: $(date)" || echo "No new changes to save"
+
+# 2. BRING IN WEB UPDATES (Now it's safe!)
+git pull origin main --rebase
+
+# 3. UPLOAD EVERYTHING
+git push origin main
+
 ```
 One needs to create this file(.sh, created using nano) inside the directory where the files that one uploads live. 
 
-Then, one needs to give permission to the file by running ```chmod +x sync.sh ``` inside the terminal. Finally, we create an alias for it, called cpsync.  
+Then, one needs to give permission to the file by running ```chmod +x sync.sh ``` inside the terminal. Finally, we create an alias for it, called cpsync.  Also, for 
+the matlab cpsync() command to work, we need to create a ```startup.m``` file, which contains:
+```
+% startup.m - Aditya's Physics Portal Configuration
+
+% JOB 1: Add the main directory to MATLAB's search path 
+% Ensures cpsync() works even when you are deep in Topics/04/code/
+addpath('/home/adityadas/codingProjects/MATLAB_CodeScripts');
+
+% JOB 2: Define the cpsync function handle with the System Library Fix
+% 'LD_LIBRARY_PATH=' clears MATLAB's old internal libraries 
+% so it can use Debian's modern Git/SSH/SSL without "symbol lookup" errors.
+cpsync = @() system('LD_LIBRARY_PATH= /home/adityadas/codingProjects/MATLAB_CodeScripts/sync.sh');
+
+% JOB 3: Status confirmation on startup
+fprintf('🚀 Physics Portal Active: Type cpsync() to sync with GitHub\n');
+
+```
 
 
 
