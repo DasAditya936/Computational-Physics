@@ -1,3 +1,5 @@
+%A MATLAB code demonstrating the flow field and time evolution of system trajectories
+
 clear all;
 clc;
 %Flow field
