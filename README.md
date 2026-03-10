@@ -75,7 +75,7 @@ git push origin main
 One needs to create this file(.sh, created using nano) inside the directory where the files that one uploads live. 
 
 Then, one needs to give permission to the file by running ```chmod +x sync.sh ``` inside the terminal. Finally, we create an alias for it, called cpsync.  Also, for 
-the matlab cpsync() command to work, we need to create a ```startup.m``` file, which contains:
+the matlab cpsync() command to work, we need to create a ```startup.m``` file (and type ```run startup.m``` in the command window). The ```startup.m``` file contains:
 ```
 % startup.m - Aditya's Physics Portal Configuration
 
