@@ -40,7 +40,7 @@ graph TD
     end
 
     subgraph S3 [3. Sync Trigger]
-        G[Run cpsync() in MATLAB Command Window]
+        G[Run cpsync in MATLAB Command Window]
         H[Run or cpsync in terminal] 
     end
     direction LR
