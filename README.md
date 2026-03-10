@@ -22,7 +22,7 @@ Computational-Physics/
 
 | Topic | Title | Study Notes (Rendered) | Master Code |
 | :--- | :--- | :--- | :--- |
-| **04** | Spectral Schemes | [🚀 View Notebook](./Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.ipynb) | [💻 .m](./Topics/04_SpectralScheme_PDEs/code/FFT_InvFFT.m) |
+| **04** | Spectral Schemes | [FFT and Inverse FFT](./Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.ipynb) | [Matlab CodeScript](./Topics/04_SpectralScheme_PDEs/code/FFT_InvFFT.m) |
 
 ## WorkFlow Graph
 ```mermaid
