@@ -23,3 +23,11 @@ Computational-Physics/
 │
 ├── Data/               # Input data files (.txt, .csv, .mat)
 └── Utils/              # Common helper functions and shared scripts
+
+# 📚 Computational Physics Study Portal
+
+
+| Topic | Subject | Study Notes (Web) | Source Code |
+| :--- | :--- | :--- | :--- |
+| **04** | Spectral Schemes (FFT/InvFFT) | [🚀 View HTML](https://github.io) | [💻 View .m](./Topics/04_SpectralScheme_PDEs/code/FFT_InvFFT.m) |
+| **05** | Finite Difference Methods | [🚀 View HTML](#) | [💻 View .m](#) |
