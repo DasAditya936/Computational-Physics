@@ -23,6 +23,7 @@ Computational-Physics/
 │
 ├── Data/               # Input data files (.txt, .csv, .mat)
 └── Utils/              # Common helper functions and shared scripts
+```
 
 # 📚 Computational Physics Study Portal
 
