@@ -1,18 +1,25 @@
 # Computational-Physics
-Code scripts and logic behind the code
+# Computational Physics Course Repository
+
+This repository contains MATLAB scripts and study notes for my Computational Physics course. It is organized to facilitate both code execution and quick exam revision.
+
+## 📂 Project Structure
+
+```text
 Computational-Physics/
 │
-├── README.md           # Course overview, syllabus, and how to run the code
-├── .gitignore          # Prevents MATLAB temp files (like .asv) from being uploaded
+├── README.md           # Course overview and directory map
+├── .gitignore          # Prevents MATLAB temp files (.asv) from being uploaded
 │
-├── Topics/             # Organized by course module or weekly topic
-│   ├── 01_Topic1/
-│   │   ├── code/       # Original .m and .mlx files
+├── Topics/             # Organized by course module
+│   ├── 01_Kinematics/
+│   │   ├── code/       # Original .m and .mlx (Live Script) files
 │   │   └── notes/      # Published PDF versions for quick revision
-│   ├── 02_Topic2/
+│   │
+│   ├── 02_Oscillators/
 │   │   ├── code/
 │   │   └── notes/
 │   └── ...
 │
-├── Data/               # Input files (.txt, .csv, .mat) required for simulations
-└── Utils/              # Common helper functions used across multiple topics
+├── Data/               # Input data files (.txt, .csv, .mat)
+└── Utils/              # Common helper functions and shared scripts
