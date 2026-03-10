@@ -70,7 +70,7 @@ echo "--- ✅ Dashboard Updated! ---"
 ```
 One needs to create this file(.sh, created using nano) inside the directory where the files that one uploads live. 
 
-Then, one needs to give permission to the file by running ```#!/bin/bash chmod +x sync.sh ``` inside the terminal. Finally, we create an alias for it. 
+Then, one needs to give permission to the file by running ```chmod +x sync.sh ``` inside the terminal. Finally, we create an alias for it, called cpsync.  
 
 
 
