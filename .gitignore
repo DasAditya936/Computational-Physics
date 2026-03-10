@@ -1,20 +1,13 @@
-# MATLAB temporary files
+# MATLAB internal package clutter
+_rels/
+metadata/
+[Content_Types].xml
+
+# Autosaves and temp files
 *.asv
 *.slxc
-*.mex*
-*.p
-*.mlappinstall
-*.mat
+*.log
 
-# MATLAB Desktop/Toolbox noise
-.SimulinkProject/
-_autosave*
-helpsearch*/
-
-# macOS/Windows system files
+# System noise
 .DS_Store
 Thumbs.db
-
-# Optional: Ignore data files if they are too large (>50MB)
-# Data/*.csv
-# Data/*.mat
