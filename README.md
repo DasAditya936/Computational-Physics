@@ -25,10 +25,14 @@ Computational-Physics/
 └── Utils/              # Common helper functions and shared scripts
 ```
 
-# 📚 Computational Physics Study Portal
+# 📚 Computational Physics Course Notes
 
+### 🔬 Topic 04: Spectral Schemes
+* [🚀 View Rendered HTML Notes](https://dasaditya936.github.io/Computational-Physics/Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.html)
+* [💻 View Source Code (MATLAB)](./Topics/04_SpectralScheme_PDEs/code/FFT_InvFFT.m)
 
-| Topic | Subject | Study Notes (Web) | Source Code |
-| :--- | :--- | :--- | :--- |
-| **04** | Spectral Schemes (FFT/InvFFT) | [🚀 View HTML]([https://dasaditya936.github.io]) | [💻 View .m](./Computational-Physics/Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.html)  |
-| **05** | Finite Difference Methods | [🚀 View HTML](#) | [💻 View .m](#) |
+---
+
+### 🔬 Topic 05: Next Topic Name
+* [🚀 View Rendered HTML Notes](URL_COMING_SOON)
+* [💻 View Source Code (MATLAB)](./PATH_TO_CODE)
