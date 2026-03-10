@@ -29,6 +29,8 @@ Computational-Physics/
 
 ### 🔬 Topic 04: Spectral Schemes
 * [Performing FFT and InvFFT in MATLAB](https://dasaditya936.github.io/Computational-Physics/Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.html)
+* [FFT and InvFFT in MATLAB](./Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.ipynb) |
+
 ---
 ### 🔬 Topic 05: Next Topic Name
 * [🚀 View Rendered HTML Notes](URL_COMING_SOON)
