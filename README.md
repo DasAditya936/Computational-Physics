@@ -28,7 +28,7 @@ Computational-Physics/
 # 📚 Computational Physics Course Notes
 
 ### 🔬 Topic 04: Spectral Schemes
-* [🚀 View Rendered HTML Notes](https://dasaditya936.github.io/Computational-Physics/Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.html)
+* [Performing FFT and InvFFT in MATLAB](https://dasaditya936.github.io/Computational-Physics/Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.html)
 ---
 ### 🔬 Topic 05: Next Topic Name
 * [🚀 View Rendered HTML Notes](URL_COMING_SOON)
