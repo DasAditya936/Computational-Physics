@@ -1,5 +1,7 @@
 %MATLAB code for solving diffusion with no-flux boundary condition.
 
+%Tracking change, to see whether the cpsync works or not
+
 clear all;
 clc;
 L=30;% System size
