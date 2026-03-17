@@ -23,6 +23,8 @@ Computational-Physics/
 | Topic | Title | Study Notes (Rendered) | Master Code |
 | :--- | :--- | :--- | :--- |
 | **04** | Spectral Schemes | [FFT and Inverse FFT](./Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.ipynb) | [Matlab CodeScript](./Topics/04_SpectralScheme_PDEs/code/FFT_InvFFT.m) |
+| **04** | Spectral Schemes | [Spectral Method to solve Diffusion](./Topics/04_SpectralScheme_PDEs/notes/SpectralMethod_Diffusion.html) | [Matlab CodeScript](./Topics/04_SpectralScheme_PDEs/code/spect_diff.m) |
+
 
 ## WorkFlow Graph
 ```mermaid
