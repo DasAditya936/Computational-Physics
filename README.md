@@ -45,7 +45,7 @@ graph TD
     end
     direction LR
     subgraph S4 [4. Revise]
-        I[Click README Dashboard Link and the index.html file, with the path-link(href="<whatever path-link we have>")]
+        I[Click README Dashboard Link and the index.html file, with the path-link, i.e. href=<whatever path-link we have>]
     end
 
     %% The Horizontal Logic (Subgraph 5)
