@@ -19,18 +19,18 @@ Computational-Physics/
 ```
 # Computational Physics 🚀
 
-[![View Live Site](https://img.shields.io)]([https://dasaditya936.github.io](https://dasaditya936.github.io/Computational-Physics/))
+[Click here to view the Live Notes Dashboard](https://dasaditya936.github.io/Computational-Physics/)
 
 Welcome to my repository...
 
 
-## 📊 Topic Dashboard
+## 📊 Code Script Dashboard
 
 
-| Topic | Title | Study Notes (Rendered) | Master Code |
+| Topic | Title | CodeScripts | Model Code from Sir |
 | :--- | :--- | :--- | :--- |
-| **04** | Spectral Schemes | [FFT and Inverse FFT](./Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.ipynb) | [Matlab CodeScript](./Topics/04_SpectralScheme_PDEs/code/FFT_InvFFT.m) |
-| **04** | Spectral Schemes | [Spectral Method to solve Diffusion](./Topics/04_SpectralScheme_PDEs/notes/SpectralMethod_Diffusion.html) | [Matlab CodeScript](./Topics/04_SpectralScheme_PDEs/code/spect_diff.m) |
+| **04** | Spectral Schemes | [Matlab CodeScript for FFT](./Topics/04_SpectralScheme_PDEs/code/FFT_InvFFT.m) | :--- |
+| **04** | Spectral Schemes | [Matlab CodeScript for Spectral Method for Diffusion](./Topics/04_SpectralScheme_PDEs/code/spect_diff.m) |[From Soling](./Topics/04_SpectralScheme_PDEs/code/soling_spectdiff.m)  |
 
 
 ## WorkFlow Graph
