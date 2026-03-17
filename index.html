@@ -4,44 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computational Physics | DasAditya936</title>
+    
+    <!-- MathJax for rendering Physics Equations -->
+    <script src="https://polyfill.io"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net"></script>
+
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 2rem; background-color: #f6f8fa; }
-        h1 { border-bottom: 2px solid #eaecef; padding-bottom: 0.3em; color: #24292e; }
-        .topic-section { background: white; border: 1px solid #d1d5da; border-radius: 6px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-        h2 { margin-top: 0; color: #0366d6; font-size: 1.25rem; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin: 10px 0; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #24292e; max-width: 850px; margin: 0 auto; padding: 2rem; background-color: #f6f8fa; }
+        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eaecef; padding-bottom: 1rem; margin-bottom: 2rem; }
+        .btn-repo { background: #24292e; color: white !important; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 600; transition: background 0.2s; }
+        .btn-repo:hover { background: #444; }
+        .topic-section { background: white; border: 1px solid #d1d5da; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        h1 { margin: 0; font-size: 1.75rem; }
+        h2 { margin-top: 0; color: #0366d6; font-size: 1.3rem; border-bottom: 1px solid #f0f0f0; padding-bottom: 8px; }
+        ul { list-style: none; padding: 0; margin: 0; }
+        li { padding: 12px 0; border-bottom: 1px solid #f6f8fa; display: flex; justify-content: space-between; }
         li:last-child { border: none; }
-        a { text-decoration: none; color: #0366d6; font-weight: 500; transition: color 0.2s; }
-        a:hover { color: #005cc5; text-decoration: underline; }
-        .footer { font-size: 0.8rem; color: #6a737d; text-align: center; margin-top: 4rem; }
+        a { text-decoration: none; color: #0366d6; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        .status-tag { font-size: 0.75rem; background: #e1f5fe; color: #039be5; padding: 2px 8px; border-radius: 12px; font-weight: 600; }
+        .footer { font-size: 0.85rem; color: #6a737d; text-align: center; margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eaecef; }
     </style>
 </head>
 <body>
 
-    <h1>Computational Physics Notes</h1>
-    <p>Repository of simulations, spectral methods, and numerical analysis.</p>
+    <div class="header">
+        <h1>Computational Physics</h1>
+        <a href="https://github.com" class="btn-repo">← View Repository</a>
+    </div>
 
-    <!-- SECTION 1 -->
+    <p>Interactive web-portal for numerical simulations and spectral methods.</p>
+
+    <!-- SECTION: Topic 04 -->
     <div class="topic-section">
         <h2>04. Spectral Schemes & PDEs</h2>
         <ul>
-            <li><a href="Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.html">FFT and Inverse FFT Analysis</a></li>
-            <!-- Add more links for this topic below -->
+            <li>
+                <a href="Topics/04_SpectralScheme_PDEs/notes/FFT_InvFFT.html" target="_blank">FFT and Inverse FFT Analysis</a>
+                <span class="status-tag">HTML Live</span>
+            </li>
+            <!-- Add more <li> items here for Topic 04 -->
         </ul>
     </div>
 
-    <!-- SECTION 2 (Template for your next topic) -->
-    <div class="topic-section">
-        <h2>05. Next Topic Name</h2>
+    <!-- SECTION: Topic 05 (Template) -->
+    <div class="topic-section" style="opacity: 0.7;">
+        <h2>05. Next Physics Module</h2>
         <ul>
-            <li><a href="URL_PATH_HERE.html">Title of Next Note</a></li>
+            <li>
+                <a href="#">Coming Soon...</a>
+            </li>
         </ul>
     </div>
 
     <div class="footer">
-        Maintained by DasAditya936 | Hosted on GitHub Pages
+        Maintained by <strong>DasAditya936</strong><br>
+        Site last synced: <span id="last-updated">Loading...</span>
     </div>
+
+    <script>
+        // Automatically shows current date as "Last Sync"
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('last-updated').textContent = new Date().toLocaleDateString(undefined, options);
+    </script>
 
 </body>
 </html>
