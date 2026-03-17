@@ -5,7 +5,7 @@ dx = L/N;
 x = (0:N-1)*dx; 
 
 %Periodic Function
-u=exp(-sin(x/2).^2)
+u=exp(-sin(x/2).^2);
 
 
 %Fourier Transform
