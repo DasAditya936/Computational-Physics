@@ -30,7 +30,7 @@ Welcome to my repository...
 | Topic | Title | CodeScripts | Model Code from Sir |
 | :--- | :--- | :--- | :--- |
 | **04** | Spectral Schemes | [Matlab CodeScript for FFT](./Topics/04_SpectralScheme_PDEs/code/FFT_InvFFT.m) | :--- |
-| **04** | Spectral Schemes | [Matlab CodeScript for Spectral Method for Diffusion](./Topics/04_SpectralScheme_PDEs/code/spect_diff.m) |[From Soling](./Topics/04_SpectralScheme_PDEs/code/soling_spectdiff.m)  |
+| **04** | Spectral Schemes | [Matlab CodeScript for Spectral Method for Diffusion](./Topics/04_SpectralScheme_PDEs/code/spect_diff.m) |[From Soling](./Topics/04_SpectralScheme_PDEs/code/Modelcode_Soling/soling_spectdiff.m) |
 
 
 ## WorkFlow Graph
