@@ -19,7 +19,7 @@ Computational-Physics/
 ```
 # Computational Physics 🚀
 
-[![View Live Site](https://img.shields.io)](https://dasaditya936.github.io)
+[![View Live Site](https://img.shields.io)]([https://dasaditya936.github.io](https://dasaditya936.github.io/Computational-Physics/))
 
 Welcome to my repository...
 
