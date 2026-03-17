@@ -44,8 +44,8 @@ graph TD
         H[Run or cpsync in terminal] 
     end
     direction LR
-    subgraph S4 [4. Revise]
-        I[Click README Dashboard Link and the index.html file, with the path-link, i.e. href=<whatever path-link we have>]
+    subgraph S4 [4. Update the Dashboard]
+        I[Update the README Dashboard by pasting the actual link. Also, update the index.html file, loacted in the \root or main directory, with the path-link, i.e. href=<whatever path-link we have>, so that the page is deployed without error]
     end
 
     %% The Horizontal Logic (Subgraph 5)
