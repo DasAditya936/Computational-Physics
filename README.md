@@ -17,6 +17,13 @@ Computational-Physics/
 ├── Utils/              # Helper functions
 └── README.md           # This Dashboard
 ```
+# Computational Physics 🚀
+
+[![View Live Site](https://img.shields.io)](https://dasaditya936.github.io)
+
+Welcome to my repository...
+
+
 ## 📊 Topic Dashboard
 
 
