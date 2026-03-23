@@ -30,7 +30,7 @@ Welcome to my repository...
 | Topic | Title | CodeScripts | Model Code from Sir |
 | :--- | :--- | :--- | :--- |
 | **04** | **Spectral Schemes** | :--- | :--- |
-| **04.1** | Plotting FFT | [Matlab CodeScript for FFT](./Topics/04_SpectralScheme_PDEs/code/MyCode/plottingFFT.m) | :--- |
+| **04.1** | Plotting FFT | [Matlab CodeScript for FFT](./Topics/04_SpectralScheme_PDEs/code/MyCode/plotingFFT.m) | :--- |
 | **04.2** | 1D Diffusion | [Matlab CodeScript for Spectral Method for Diffusion](./Topics/04_SpectralScheme_PDEs/code/MyCode/spect_diff.m) |[From Soling](./Topics/04_SpectralScheme_PDEs/code/Modelcode_Soling/soling_spectdiff.m) |
 | **04.3** | 1D Fokker-Planck  | [Matlab CodeScript for Spectral Method for Fokker-Planck](./Topics/04_SpectralScheme_PDEs/code/MyCode/fokkerPlanck1D.m) |[From Soling](./Topics/04_SpectralScheme_PDEs/code/Modelcode_Soling/soling_1DFokkerPlanck.m) |
 
