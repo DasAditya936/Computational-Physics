@@ -1,47 +1,29 @@
-%close all;
-clear all;
-clc;
-N=50000; % No. of iterations
-Nre=10; % No. of realizations
-x=zeros(N,1); % x position of the walker
-y=zeros(N,1); % y position of the walker
-x(1)=0; % initial x position of the walker
-y(1)=0; % initial y position of the walker
-for ire=1:Nre % realization loop
-    for i=2:N % temporal iteration loop
-        ro=rand(1); % random no. for orientation (x or y)
-        rd=rand(1); % random no. for displacement
-        if ro>=0.5
-            y(i)=y(i-1);
+clear;
+number_of_walkers=500;
+number_of_steps=100;
+step_number=zeros(1,number_of_steps);
+x2ave=zeros(1,number_of_steps);
+step_number_array=1:1:number_of_steps;
 
-            if rd>=0.5
-                x(i)=x(i-1)+1;
-            else
-                x(i)=x(i-1)-1;
-            end
-
+for r=1:number_of_walkers
+% initialise position
+    x=0;
+    y=0;
+    
+    for i=1:number_of_steps
+        if rand<0.5
+            x=x+rand;   
         else
-            x(i)=x(i-1);
-            if rd>=0.5
-                y(i)=y(i-1)+1;
-            else
-                y(i)=y(i-1)-1;
-            end
+            x=x-rand;
         end
+        % Accumulate value of x^2 , the squared displacement, for each step number
+            x2ave(i)=x2ave(i)+x^2;
     end
-    msd(:,ire)=x.^2+y.^2; % mean square displacement for different realizations
 end
 
-% for i=1:N
-%     scatter(x(i),y(i),'.k');hold on;
-%     pause(0.001);
-%     xlim([-50 50]);ylim([-50 50]);
-% end
-
-%scatter(x,y,'.');xlim([-300 300]);ylim([-300 300]);
-
-MSD=mean(msd,2); % Mean msd
-plot(MSD);
-% D=1:N;
-% hold on;
-% plot(D);
+% Divide by number of walkers
+x2ave= x2ave/number_of_walkers;
+plot(step_number_array, x2ave, 'g');
+title('Random walk');
+xlabel('Step number');
+ylabel('x^2');
