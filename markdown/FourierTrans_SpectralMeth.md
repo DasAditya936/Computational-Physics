@@ -580,9 +580,9 @@ title('Frequency Space: Multiple Distinct Spectral Peaks'); grid on;
 
 ```
 
-![image_1.png](Animations/FourierTrans_SpectralMeth_media/image_1.png)
+![image_1.png](/home/adityadas/codingProjects/MATLAB_CodeScripts/Animations/FourierTrans_SpectralMeth_media/image_1.png)
 
 
 
-![image_2.png](Animations/FourierTrans_SpectralMeth_media/image_2.png)
+![image_2.png](/home/adityadas/codingProjects/MATLAB_CodeScripts/Animations/FourierTrans_SpectralMeth_media/image_2.png)
 
